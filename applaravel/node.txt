@@ -1,0 +1,2 @@
+1. kiểm tra các action tại root 
+
