@@ -1,2 +1,24 @@
 1. kiểm tra các action tại root 
 
+2. Xóa cack: php artisan config:clear;
+
+database
+ // $data=Category::all()->toArray();
+        // $data=Category::all()->toJson();
+        //$data=Category::find(1);//lấy ra 1 đối tượng
+        // $data=Category::count();
+        //Thêm dữ liệu vào bảng
+        // $data=new Category();
+        // $data->id = '1';
+        // $data->save();
+        //them du lieu
+    //    die();
+    //     Category::create([
+    //         'name'=>'linhdkjđqq',
+    //         'slug'=>'linhaqq'
+    //     ]);
+    //thêm mới
+    //    $data=Category::find(5);
+    //    $data->name='quanglinh';
+    //    $data->save();
+    //Xóa 1 dữ liệu

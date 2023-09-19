@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,6 +25,6 @@ Route::get('/', function () {
 // Route::get('/',[UserController::class,'list_user']);
 
 Route::get('/admins',[AdminController::class,'home']);
-Route::get('/list-category',[CategoryController::class,'list_category'])->name('danh mục sản phẩm');
-Route::get('/list-product',[CategoryController::class,'list_product'])->name('danh sách sản phẩm');
+Route::get('/list-category',[CategoryController::class,'list_category'])->name('danh-sach-DMSP');
+Route::get('/list-product',[ProductController::class,'list_product'])->name('danh sách sản phẩm');
 Route::get('/new',[CategoryController::class,'new'])->name('Tin tức');
